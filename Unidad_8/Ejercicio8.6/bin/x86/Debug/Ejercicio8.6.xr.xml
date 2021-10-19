@@ -38,9 +38,8 @@
       <RootProperty Name="Text" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="Visibility" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalTextAlignment" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />

@@ -4,8 +4,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -48,31 +50,48 @@ namespace Ejercicio8._6
         /// <param name="e"></param>
         private void AppBarButton_Click_1(object sender, RoutedEventArgs e)
         {
+            txtErrorNombre.Visibility = Visibility.Collapsed;
+            txtErrorApellidos.Visibility = Visibility.Collapsed;
+            txtErrorFecha.Text = " ";
+
+            Boolean valido = true;
+
             if (string.IsNullOrEmpty(txbNombre.Text))
             {
                 txtErrorNombre.Visibility = Visibility.Visible;
+                valido = false;
             }
             if (string.IsNullOrEmpty(txbApellidos.Text))
             {
                 txtErrorApellidos.Visibility = Visibility.Visible;
+                valido = false;
             }
             if (string.IsNullOrEmpty(txbFecha.Text))
             {
                 txtErrorFecha.Text = "Campo vacío";
+                valido = false;
+            }
+            if (!validarFecha(txbFecha.Text)) 
+            {
+                txtErrorFecha.Text = "Fecha incorrecta";
             }
 
 
-
+            if (valido) {  
             txtNombre.Text = " ";
             txtApellidos.Text = " ";
             txtFecha.Text = " ";
             txtConfirmar.Visibility = Visibility.Visible;
+            }
+           
         }
 
         private void AppBarButton_Click_2(object sender, RoutedEventArgs e)
         {
 
+         
         }
+
 
         /// <summary>
         /// Función para validar las fechas

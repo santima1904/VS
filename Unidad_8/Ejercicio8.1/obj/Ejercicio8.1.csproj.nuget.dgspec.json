@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TESTER\\Desktop\\DAM\\DEINT\\VisualStudio\\Unidad_8\\Ejercicio8.1\\Ejercicio8.1.csproj": {}
+    "C:\\Users\\TESTER\\Desktop\\DAM\\DEINT\\VS\\Unidad_8\\Ejercicio8.1\\Ejercicio8.1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TESTER\\Desktop\\DAM\\DEINT\\VisualStudio\\Unidad_8\\Ejercicio8.1\\Ejercicio8.1.csproj": {
+    "C:\\Users\\TESTER\\Desktop\\DAM\\DEINT\\VS\\Unidad_8\\Ejercicio8.1\\Ejercicio8.1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TESTER\\Desktop\\DAM\\DEINT\\VisualStudio\\Unidad_8\\Ejercicio8.1\\Ejercicio8.1.csproj",
+        "projectUniqueName": "C:\\Users\\TESTER\\Desktop\\DAM\\DEINT\\VS\\Unidad_8\\Ejercicio8.1\\Ejercicio8.1.csproj",
         "projectName": "Ejercicio8.1",
-        "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\DEINT\\VisualStudio\\Unidad_8\\Ejercicio8.1\\Ejercicio8.1.csproj",
+        "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\DEINT\\VS\\Unidad_8\\Ejercicio8.1\\Ejercicio8.1.csproj",
         "packagesPath": "C:\\Users\\TESTER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TESTER\\Desktop\\DAM\\DEINT\\VisualStudio\\Unidad_8\\Ejercicio8.1\\obj\\",
+        "outputPath": "C:\\Users\\TESTER\\Desktop\\DAM\\DEINT\\VS\\Unidad_8\\Ejercicio8.1\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
