@@ -88,7 +88,9 @@ namespace Ejercicio8._6
 
         private void AppBarButton_Click_2(object sender, RoutedEventArgs e)
         {
+            var MessageDialog = new MessageDialog("¿Estás seguro?", "Cuidado");
 
+            
          
         }
 
