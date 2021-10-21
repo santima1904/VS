@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
@@ -51,7 +51,7 @@
             <PivotItem Header="Tab two"/>
         </Pivot>
         <TextBox Grid.Row="1" Grid.Column="2" TextWrapping="Wrap" AcceptsReturn="True" IsSpellCheckEnabled="True" MaxHeight="100" Margin="0, 0, 10, 0"></TextBox>
-        <PasswordBox Width="300" AutomationProperties.Name="Simple PasswordBox" Grid.Row="1" Grid.Column="3" MaxHeight="100" HorizontalAlignment="Left"/>
+        <PasswordBox MinWidth="200" AutomationProperties.Name="Simple PasswordBox" Grid.Row="1" Grid.Column="3" MaxHeight="30" HorizontalAlignment="Left"/>
         <ListBox Grid.Row="2" Grid.Column="0">
             <x:String>Blue</x:String>
             <x:String>Red</x:String>
@@ -64,5 +64,12 @@
             <x:String>Mola</x:String>
             <x:String>El de arriba miente</x:String>
         </ComboBox>
+        <StackPanel Orientation="Vertical" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2">
+            <Slider Margin="10" TickFrequency="10" TickPlacement="BottomRight"></Slider>
+            <ProgressBar Margin="10, 30" Height="20" Width="250" HorizontalAlignment="Right"></ProgressBar>
+        </StackPanel>
+        <CalendarView Grid.Row="3" Grid.Column="0"></CalendarView>
+        <CalendarDatePicker Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></CalendarDatePicker>
+        <DatePicker Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"></DatePicker>
     </Grid>
 </Page>
