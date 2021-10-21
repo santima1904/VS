@@ -65,8 +65,8 @@
             <x:String>El de arriba miente</x:String>
         </ComboBox>
         <StackPanel Orientation="Vertical" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2">
-            <Slider Margin="10" TickFrequency="10" TickPlacement="BottomRight"></Slider>
-            <ProgressBar Margin="10, 30" Height="20" Width="250" HorizontalAlignment="Right"></ProgressBar>
+            <Slider x:Name="sldBarra" Margin="10" TickFrequency="10" TickPlacement="BottomRight"></Slider>
+            <ProgressBar Margin="10, 30" Height="20" Width="250" HorizontalAlignment="Right" Value="{Binding ElementName=sldBarra, Path=Value}"></ProgressBar>
         </StackPanel>
         <CalendarView Grid.Row="3" Grid.Column="0"></CalendarView>
         <CalendarDatePicker Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></CalendarDatePicker>

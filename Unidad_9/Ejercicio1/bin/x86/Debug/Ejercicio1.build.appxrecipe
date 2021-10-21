@@ -70,11 +70,14 @@
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Views\MainPage.xbf">
+      <PackagePath>Views\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Page2.xbf">
-      <PackagePath>Page2.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Views\Page2.xbf">
+      <PackagePath>Views\Page2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Views\Video.xbf">
+      <PackagePath>Views\Video.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

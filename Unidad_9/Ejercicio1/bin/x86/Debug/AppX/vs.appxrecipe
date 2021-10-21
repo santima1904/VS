@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-21T15:16:03.836</Modified>
+      <Modified>2021-10-21T18:17:00.323</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Ejercicio1.exe">
       <PackagePath>entrypoint\Ejercicio1.exe</PackagePath>
-      <Modified>2021-10-21T15:16:01.367</Modified>
+      <Modified>2021-10-21T18:16:59.795</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -86,19 +86,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Ejercicio1.xr.xml">
       <PackagePath>Ejercicio1.xr.xml</PackagePath>
-      <Modified>2021-10-21T15:16:01.219</Modified>
+      <Modified>2021-10-21T18:13:51.784</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-10-21T15:16:01.257</Modified>
+      <Modified>2021-10-21T18:16:59.716</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-10-21T15:16:01.258</Modified>
+    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Views\MainPage.xbf">
+      <PackagePath>Views\MainPage.xbf</PackagePath>
+      <Modified>2021-10-21T18:16:59.717</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Page2.xbf">
-      <PackagePath>Page2.xbf</PackagePath>
-      <Modified>2021-10-21T15:16:01.258</Modified>
+    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Views\Page2.xbf">
+      <PackagePath>Views\Page2.xbf</PackagePath>
+      <Modified>2021-10-21T18:16:59.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Views\Video.xbf">
+      <PackagePath>Views\Video.xbf</PackagePath>
+      <Modified>2021-10-21T18:16:59.717</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -106,11 +110,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-10-21T15:16:01.772</Modified>
+      <Modified>2021-10-21T18:11:40.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Core\Ejercicio1.exe">
       <PackagePath>Ejercicio1.exe</PackagePath>
-      <Modified>2021-10-21T15:16:03.821</Modified>
+      <Modified>2021-10-21T18:17:00.316</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
