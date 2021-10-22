@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Color" />
     <RootPropertyPathName Name="Value" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -10,6 +11,40 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColorPicker">
+      <RootProperty Name="ColorSpectrumShape" />
+      <RootProperty Name="IsColorPreviewVisible" />
+      <RootProperty Name="IsColorChannelTextInputVisible" />
+      <RootProperty Name="IsHexInputVisible" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.InkToolbar" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Border">
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Child" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="ElementName" />
+      <RootProperty Name="Path" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.InkCanvas">
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Ejercicio1.Views.Colorines" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Margin" />
       <RootProperty Name="RowDefinitions" />
@@ -27,13 +62,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
-      <RootProperty Name="Orientation" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Children" />
-      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="HorizontalAlignment" />
@@ -81,11 +109,6 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.MediaPlayerElement">
-      <RootProperty Name="Source" />
-      <RootProperty Name="AutoPlay" />
-      <RootProperty Name="Width" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Slider">
       <RootProperty Name="Margin" />
       <RootProperty Name="TickFrequency" />
@@ -97,10 +120,6 @@
       <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Value" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding">
-      <RootProperty Name="ElementName" />
-      <RootProperty Name="Path" />
     </RootType>
     <RootType FullName="System.String" />
     <RootType FullName="Windows.UI.Xaml.Controls.PivotItem">
@@ -143,12 +162,21 @@
       <RootProperty Name="IsBackButtonVisible" />
       <RootProperty Name="IsSettingsVisible" />
       <RootProperty Name="MenuItems" />
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItem">
+      <RootProperty Name="Icon" />
       <RootProperty Name="Content" />
       <RootProperty Name="Tag" />
+      <RootEvent Name="Tapped" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
     <RootType FullName="Ejercicio1.Page2" />
+    <RootType FullName="Windows.UI.Xaml.Controls.MediaPlayerElement">
+      <RootProperty Name="Source" />
+      <RootProperty Name="AutoPlay" />
+      <RootProperty Name="Margin" />
+    </RootType>
     <RootType FullName="Ejercicio1.Views.Video" />
   </Roots.RootTypes>
 </Roots>

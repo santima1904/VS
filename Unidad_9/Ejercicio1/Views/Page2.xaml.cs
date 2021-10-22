@@ -31,5 +31,15 @@ namespace Ejercicio1
         {
             this.Frame.Navigate(typeof(MainPage));
         }
+
+        private void NavigationViewItem_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            contentFrame.Navigate(typeof(Ejercicio1.Views.Video));
+        }
+
+        private void NavigationViewItem_Tapped_1(object sender, TappedRoutedEventArgs e)
+        {
+            contentFrame.Navigate(typeof(Ejercicio1.Views.Colorines));
+        }
     }
 }

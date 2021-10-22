@@ -9,13 +9,14 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <RelativePanel>
-        <AppBarButton Icon="Back" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignRightWithPanel="True" Click="AppBarButton_Click"/>
+        <AppBarButton x:ConnectionId='2' Icon="Back" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignRightWithPanel="True"                           />
         <NavigationView RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsSettingsVisible="False">
             <NavigationView.MenuItems>
-                <NavigationViewItem Icon="Video" Content="Video" Tag="Video" Tapped="NavigationViewItem_Tapped"/>
-                <NavigationViewItem Icon="FontColor" Content="Colorines" Tag="Colorines" Tapped="NavigationViewItem_Tapped_1"/>
+                <NavigationViewItem x:ConnectionId='3' Icon="Video" Content="Video" Tag="Video"                                   />
+                <NavigationViewItem x:ConnectionId='4' Icon="FontColor" Content="Colorines" Tag="Colorines"                                     />
             </NavigationView.MenuItems>
-            <Frame x:Name="contentFrame" />
+            <Frame x:ConnectionId='5' x:Name="contentFrame" />
         </NavigationView>
     </RelativePanel>
 </Page>
+

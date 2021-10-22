@@ -10,7 +10,7 @@
 
     <StackPanel Orientation="Horizontal"  VerticalAlignment="Center" HorizontalAlignment="Center">
         
-            <ColorPicker x:Name="myColorPicker"
+            <ColorPicker x:ConnectionId='2' x:Name="myColorPicker"
              ColorSpectrumShape="Ring"
              IsColorPreviewVisible="False"
              IsColorChannelTextInputVisible="False"
@@ -21,8 +21,9 @@
                 <Border.BorderBrush>
                     <SolidColorBrush Color="{Binding ElementName=myColorPicker, Path=Color}"/>
                 </Border.BorderBrush>
-                <InkCanvas x:Name="inkCanvas" Visibility="Visible"/>
+                <InkCanvas x:ConnectionId='3' x:Name="inkCanvas" Visibility="Visible"/>
             </Border>
         </StackPanel>
     </StackPanel>
 </Page>
+

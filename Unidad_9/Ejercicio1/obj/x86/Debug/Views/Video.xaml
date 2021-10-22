@@ -9,8 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <StackPanel Orientation="Vertical">
-        <MediaPlayerElement x:Name="mpeVideo"
+        <MediaPlayerElement x:ConnectionId='2' x:Name="mpeVideo"
                     Source= "ms-appx:///Assets/Bob esponja bailando el remix de fabuloso.mp4"
                     AutoPlay="True" Margin="20"/>
     </StackPanel>
 </Page>
+

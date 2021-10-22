@@ -25,6 +25,7 @@ namespace Ejercicio1.Views
         public Colorines()
         {
             this.InitializeComponent();
+            inkCanvas.InkPresenter.InputDeviceTypes = Windows.UI.Core.CoreInputDeviceTypes.Mouse;
         }
     }
 }

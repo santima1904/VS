@@ -32,7 +32,7 @@ namespace Ejercicio8._6
         }
 
         /// <summary>
-        /// Función asociada al evento de click del botón de "+"
+        /// Función asociada al evento de click del botón de "+", limpia los campos de los textboxes
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -77,7 +77,7 @@ namespace Ejercicio8._6
             }
 
 
-            if (valido) {  
+            if (valido) { 
             txtNombre.Text = " ";
             txtApellidos.Text = " ";
             txtFecha.Text = " ";
@@ -88,10 +88,7 @@ namespace Ejercicio8._6
 
         private void AppBarButton_Click_2(object sender, RoutedEventArgs e)
         {
-            var MessageDialog = new MessageDialog("¿Estás seguro?", "Cuidado");
-
-            
-         
+            ContentDialog contentDialog = new ContentDialog();
         }
 
 
