@@ -1,19 +1,51 @@
 ﻿using System;
+using System.ComponentModel;
 
 namespace Ejercicio2.Models
 {
-    public class clsPersona
+    public class clsPersona : INotifyPropertyChanged
     {
         #region atributos privados
         private String nombre;
         private String apellidos;
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        private void NotifyPropertyChanged(String nombre)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(nombre));
+            }
+        }
         #endregion
 
         #region propiedades publicas
-        public string Nombre { get => nombre; set => nombre = value; }
-        public string Apellidos { get => apellidos; set => apellidos = value; }
+        public string Nombre
+        {
+            get { return nombre; }
+            set
+            {
+                nombre = value;
+                if (value.Contains("n")|| value.Contains("N"))
+                {
+                    apellidos = " ";
+                    NotifyPropertyChanged("Apellidos");
+                }
+            }
+        }
 
+        public string Apellidos
+        {
+            get { return apellidos; }
+            set { apellidos = value;
+                if (value.Contains("n") || value.Contains("N"))
+                {
+                    nombre = " ";
+                    NotifyPropertyChanged("Nombre");
+                }
+            }
 
+        }
 
 
         #endregion
@@ -38,4 +70,5 @@ namespace Ejercicio2.Models
 
         #endregion
     }
+
 } 

@@ -16,14 +16,16 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <TextBlock Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Right" VerticalAlignment="Center">Nombre:</TextBlock>
-        <TextBlock Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Right" VerticalAlignment="Center">Apellidos:</TextBlock>
-        <TextBox Grid.Row="0" Grid.Column="1" Margin="10"/>
-        <TextBox Grid.Row="1" Grid.Column="1" Margin="10"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Right" VerticalAlignment="Center">Apellidos:</TextBlock>
+        <TextBox x:Name="txbNombre" Text="{Binding OPersona.Nombre, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="0" Grid.Column="1" Margin="10"/>
+        <TextBox x:Name="txbNombre2" Text="{Binding ElementName=txbNombre, Path=Text, Mode=TwoWay}" Grid.Row="1" Grid.Column="1" Margin="10"/>
+        <TextBox x:Name="txbApellidos" Text="{Binding OPersona.Apellidos, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" Grid.Column="1" Margin="10"/>
     </Grid>
 </Page>
