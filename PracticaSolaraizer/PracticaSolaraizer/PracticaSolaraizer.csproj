@@ -122,6 +122,9 @@
     <Compile Include="Views\Citas.xaml.cs">
       <DependentUpon>Citas.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Detalles.xaml.cs">
+      <DependentUpon>Detalles.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -149,6 +152,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="Views\Citas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Detalles.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

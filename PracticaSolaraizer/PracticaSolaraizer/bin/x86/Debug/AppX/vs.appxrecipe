@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-26T17:48:17.928</Modified>
+      <Modified>2021-11-02T16:25:00.416</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\bin\x86\Debug\PracticaSolaraizer.exe">
       <PackagePath>entrypoint\PracticaSolaraizer.exe</PackagePath>
-      <Modified>2021-10-26T17:48:17.100</Modified>
+      <Modified>2021-11-02T16:25:00.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -48,61 +48,61 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\Assets\R.png">
       <PackagePath>Assets\R.png</PackagePath>
-      <Modified>2021-10-26T17:22:37.100</Modified>
+      <Modified>2021-10-27T15:51:23.204</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-09-25T10:44:15.765</Modified>
+      <Modified>2021-10-27T15:51:23.204</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-09-25T10:44:15.769</Modified>
+      <Modified>2021-10-27T15:51:23.205</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-09-25T10:44:15.770</Modified>
+      <Modified>2021-10-27T15:51:23.206</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-09-25T10:44:15.771</Modified>
+      <Modified>2021-10-27T15:51:23.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-09-25T10:44:15.773</Modified>
+      <Modified>2021-10-27T15:51:23.210</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-09-25T10:44:15.776</Modified>
+      <Modified>2021-10-27T15:51:23.212</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-09-25T10:44:15.776</Modified>
+      <Modified>2021-10-27T15:51:23.211</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-10-26T16:51:43.180</Modified>
+      <Modified>2021-10-27T15:51:23.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\bin\x86\Debug\PracticaSolaraizer.xr.xml">
       <PackagePath>PracticaSolaraizer.xr.xml</PackagePath>
-      <Modified>2021-10-26T17:48:16.927</Modified>
+      <Modified>2021-11-02T16:23:42.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-10-26T17:48:16.952</Modified>
+      <Modified>2021-11-02T16:23:42.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\bin\x86\Debug\Views\Citas.xbf">
       <PackagePath>Views\Citas.xbf</PackagePath>
-      <Modified>2021-10-26T17:48:16.953</Modified>
+      <Modified>2021-11-02T16:23:42.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-10-26T17:48:16.953</Modified>
+      <Modified>2021-11-02T16:24:59.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -110,11 +110,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-10-26T17:48:17.423</Modified>
+      <Modified>2021-11-02T16:08:36.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\DEINT\VS\PracticaSolaraizer\PracticaSolaraizer\bin\x86\Debug\Core\PracticaSolaraizer.exe">
       <PackagePath>PracticaSolaraizer.exe</PackagePath>
-      <Modified>2021-10-26T17:48:17.916</Modified>
+      <Modified>2021-11-02T16:25:00.412</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
