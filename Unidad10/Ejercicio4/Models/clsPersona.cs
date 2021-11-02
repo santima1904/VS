@@ -62,7 +62,7 @@ namespace Ejercicio4.Models
         #region toString
         public String toString()
         {
-            return nombre + apellidos;
+            return nombre;
         }
         #endregion
     }

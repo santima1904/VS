@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
-    <RootPropertyPathName Name="List" />
     <RootPropertyPathName Name="PersonaSeleccionada" />
+    <RootPropertyPathName Name="Direccion" />
+    <RootPropertyPathName Name="Telefono" />
+    <RootPropertyPathName Name="FechaNacimiento" />
     <RootPropertyPathName Name="Apellidos" />
     <RootPropertyPathName Name="Nombre" />
+    <RootPropertyPathName Name="List" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -58,8 +61,11 @@
       <RootProperty Name="Text" />
       <RootProperty Name="Margin" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBox" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Text" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="UpdateSourceTrigger" />
       <RootProperty Name="Mode" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">

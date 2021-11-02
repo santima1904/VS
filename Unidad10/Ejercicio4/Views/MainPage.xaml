@@ -38,17 +38,17 @@
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Grid.Row="0" Grid.Column="0">Nombre:</TextBlock>
-            <TextBlock Grid.Row="1" Grid.Column="0">Apellidos:</TextBlock>
-            <TextBlock Grid.Row="2" Grid.Column="0">Fecha de nacimiento:</TextBlock>
-            <TextBlock Grid.Row="3" Grid.Column="0">Teléfono:</TextBlock>
-            <TextBlock Grid.Row="4" Grid.Column="0">Dirección:</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="0" Margin="10">Nombre:</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="0" Margin="10">Apellidos:</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="0" Margin="10">Fecha de nacimiento:</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="0" Margin="10">Teléfono:</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="0" Margin="10">Dirección:</TextBlock>
 
-            <TextBox x:Name="txbNombre" Grid.Row="0" Grid.Column="1"/>
-            <TextBox x:Name="txbApellidos" Grid.Row="1" Grid.Column="1"/>
-            <TextBox x:Name="txbFechaNac" Grid.Row="2" Grid.Column="1"/>
-            <TextBox x:Name="txbTlfn" Grid.Row="3" Grid.Column="1"/>
-            <TextBox x:Name="txbDireccion" Grid.Row="4" Grid.Column="1"/>
+            <TextBox x:Name="txbNombre" Grid.Row="0" Grid.Column="1" Text="{Binding PersonaSeleccionada.Nombre, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBox x:Name="txbApellidos" Grid.Row="1" Grid.Column="1" Text="{Binding PersonaSeleccionada.Apellidos, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBox x:Name="txbFechaNac" Grid.Row="2" Grid.Column="1" Text="{Binding PersonaSeleccionada.FechaNacimiento, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBox x:Name="txbTlfn" Grid.Row="3" Grid.Column="1" Text="{Binding PersonaSeleccionada.Telefono, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBox x:Name="txbDireccion" Grid.Row="4" Grid.Column="1" Text="{Binding PersonaSeleccionada.Direccion, UpdateSourceTrigger=PropertyChanged}"/>
         </Grid>
     </RelativePanel>
 </Page>
