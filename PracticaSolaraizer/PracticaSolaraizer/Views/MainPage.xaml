@@ -12,12 +12,12 @@
         <Border x:Name="txbTitle" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" Background="#F19314">
             <TextBlock HorizontalTextAlignment="Center" FontSize="40" FontWeight="Bold">Solarizr</TextBlock>
         </Border>
-        <RelativePanel HorizontalAlignment="Center" Margin="50, 0" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.Below="txbTitle">
-            <Image x:Name="imgFoto" RelativePanel.AlignTopWithPanel="True"  Source="Assets//R.png" HorizontalAlignment="Center" Width="300" Height="300"></Image>
-            <TextBlock x:Name="txbSesion" RelativePanel.Below="imgFoto" HorizontalTextAlignment="Center" FontSize="35" Margin="0,20">Iniciar sesión</TextBlock>
-            <TextBox x:Name="txxCodigo" RelativePanel.Below="txbSesion" Header="Código" BorderBrush="#F19314" BorderThickness="2" Margin="0,20" Width="400"></TextBox>
-            <PasswordBox RelativePanel.Below="txxCodigo" x:Name="pwbContrasenha" Header="Contraseña" BorderBrush="#F19314" BorderThickness="2" Margin="0,20" Width="400"/>
-            <Button RelativePanel.Below="pwbContrasenha" Content="Entrar" Margin="170, 20" Background="#F19314" Click="Button_Click"></Button>
-        </RelativePanel>
+        <StackPanel HorizontalAlignment="Center" Margin="50, 0" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.Below="txbTitle" Orientation="Vertical">
+            <Image x:Name="imgFoto" Source="/Assets/R.png" HorizontalAlignment="Center" Width="300" Height="300" Margin="0,60,0,0"></Image>
+            <TextBlock x:Name="txbSesion" HorizontalTextAlignment="Center" FontSize="35" Margin="0,20">Iniciar sesión</TextBlock>
+            <TextBox x:Name="txxCodigo" Header="Código" BorderBrush="#F19314" BorderThickness="2" Margin="0,20" Width="400"></TextBox>
+            <PasswordBox x:Name="pwbContrasenha" Header="Contraseña" BorderBrush="#F19314" BorderThickness="2" Margin="0,20" Width="400"/>
+            <Button Content="Entrar" Margin="170, 20" Background="#F19314" Click="Button_Click"></Button>
+        </StackPanel>
     </RelativePanel>
 </Page>

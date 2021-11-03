@@ -31,6 +31,7 @@ namespace Ejercicio4.Models
         public string Telefono { get => telefono; set => telefono = value; }
 
 
+
         #endregion
 
         // Forma de autoimplementacion (para más adelante)
@@ -65,6 +66,7 @@ namespace Ejercicio4.Models
             return nombre;
         }
         #endregion
+
     }
 
 } 

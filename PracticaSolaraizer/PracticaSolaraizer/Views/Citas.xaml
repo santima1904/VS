@@ -10,7 +10,12 @@
 
     <RelativePanel>
         <Border x:Name="txbTitle" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" Background="#F19314">
-            <TextBlock HorizontalTextAlignment="Center" FontSize="40" Margin="30, 5" Foreground="#707070">Citas previas</TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Button VerticalAlignment="Center" Margin="20, 5, 10,0" Click="Button_Click">
+                    <FontIcon Glyph="&#xf3b1;"/>
+                </Button>
+                <TextBlock HorizontalAlignment="Center" FontSize="40" Margin="500, 5" Foreground="#707070">Citas previas</TextBlock>
+            </StackPanel>
         </Border>
         <ListView>
             

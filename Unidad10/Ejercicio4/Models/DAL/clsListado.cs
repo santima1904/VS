@@ -12,7 +12,7 @@ namespace Ejercicio4.Models.DAL
         /// <summary>
         /// Método para rellenar una lista con objetos de clsPersona
         /// </summary>
-        /// <returns>Lista de personas</returns>
+        /// <returns>List<clsPersona></returns>
         public static List<clsPersona> rellenarLista()
         {
             List<clsPersona> lista = new List<clsPersona>();

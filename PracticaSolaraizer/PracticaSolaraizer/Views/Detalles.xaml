@@ -12,7 +12,7 @@
         <Border x:Name="txbTitle" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" Background="#F19314">
             <StackPanel Orientation="Horizontal">
                 <AppBarButton Icon="Back" Margin="10" VerticalAlignment="Center" Click="AppBarButton_Click"/>
-                <TextBlock FontSize="40" VerticalAlignment="Center" Margin="550, 10" Foreground="#707070">Detalles</TextBlock>
+                <TextBlock FontSize="40" VerticalAlignment="Center" Margin="580, 10" Foreground="#707070">Detalles</TextBlock>
             </StackPanel>
         </Border>
     </RelativePanel>

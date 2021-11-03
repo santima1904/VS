@@ -14,12 +14,12 @@
     </Page.DataContext>
     
     <RelativePanel>
-        <ListView x:ConnectionId='2' x:Name="lstLista" ItemsSource="{Binding List}" SelectedItem="{Binding PersonaSeleccionada, Mode=TwoWay}" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" ScrollViewer.VerticalScrollBarVisibility="Visible">
+        <ListView x:ConnectionId='2' x:Name="lstLista" ItemsSource="{Binding List, Mode=TwoWay}" SelectedItem="{Binding PersonaSeleccionada, Mode=TwoWay}" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" ScrollViewer.VerticalScrollBarVisibility="Visible">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="{Binding Nombre}" Margin="10, 0"/>
-                        <TextBlock Text="{Binding Apellidos}"/>
+                        <TextBlock Text="{Binding Nombre, Mode=TwoWay}" Margin="10, 0"/>
+                        <TextBlock Text="{Binding Apellidos, Mode=TwoWay}"/>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
@@ -38,17 +38,17 @@
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Grid.Row="0" Grid.Column="0">Nombre:</TextBlock>
-            <TextBlock Grid.Row="1" Grid.Column="0">Apellidos:</TextBlock>
-            <TextBlock Grid.Row="2" Grid.Column="0">Fecha de nacimiento:</TextBlock>
-            <TextBlock Grid.Row="3" Grid.Column="0">Teléfono:</TextBlock>
-            <TextBlock Grid.Row="4" Grid.Column="0">Dirección:</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="0" Margin="10">Nombre:</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="0" Margin="10">Apellidos:</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="0" Margin="10">Fecha de nacimiento:</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="0" Margin="10">Teléfono:</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="0" Margin="10">Dirección:</TextBlock>
 
-            <TextBox x:ConnectionId='4' x:Name="txbNombre" Grid.Row="0" Grid.Column="1" Text="{Binding PersonaSeleccionada.Nombre, UpdateSourceTrigger=PropertyChanged}"/>
-            <TextBox x:ConnectionId='5' x:Name="txbApellidos" Grid.Row="1" Grid.Column="1" Text="{Binding PersonaSeleccionada.Apellidos, UpdateSourceTrigger=PropertyChanged}"/>
-            <TextBox x:ConnectionId='6' x:Name="txbFechaNac" Grid.Row="2" Grid.Column="1" Text="{Binding PersonaSeleccionada.FechaNacimiento, UpdateSourceTrigger=PropertyChanged}"/>
-            <TextBox x:ConnectionId='7' x:Name="txbTlfn" Grid.Row="3" Grid.Column="1" Text="{Binding PersonaSeleccionada.Telefono, UpdateSourceTrigger=PropertyChanged}"/>
-            <TextBox x:ConnectionId='8' x:Name="txbDireccion" Grid.Row="4" Grid.Column="1" Text="{Binding PersonaSeleccionada.Direccion, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBox x:ConnectionId='4' x:Name="txbNombre" Grid.Row="0" Grid.Column="1" Text="{Binding PersonaSeleccionada.Nombre, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+            <TextBox x:ConnectionId='5' x:Name="txbApellidos" Grid.Row="1" Grid.Column="1" Text="{Binding PersonaSeleccionada.Apellidos, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+            <TextBox x:ConnectionId='6' x:Name="txbFechaNac" Grid.Row="2" Grid.Column="1" Text="{Binding PersonaSeleccionada.FechaNacimiento, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+            <TextBox x:ConnectionId='7' x:Name="txbTlfn" Grid.Row="3" Grid.Column="1" Text="{Binding PersonaSeleccionada.Telefono, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+            <TextBox x:ConnectionId='8' x:Name="txbDireccion" Grid.Row="4" Grid.Column="1" Text="{Binding PersonaSeleccionada.Direccion, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
         </Grid>
     </RelativePanel>
 </Page>
