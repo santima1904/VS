@@ -17,3 +17,6 @@
         </Border>
     </RelativePanel>
 </Page>
+    
+<!--Abrir el explorador-->
+<!--FileOpenPicker()-->
