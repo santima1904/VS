@@ -9,19 +9,20 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <RelativePanel>
-        <Border x:Name="txbTitle" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" Background="#F19314">
+        <Border x:ConnectionId='2' x:Name="txbTitle" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" Background="#F19314">
             <StackPanel Orientation="Horizontal">
-                <Button VerticalAlignment="Center" Margin="20, 5, 10,0" Click="Button_Click">
+                <Button x:ConnectionId='5' VerticalAlignment="Center" Margin="20, 5, 10,0"                     >
                     <FontIcon Glyph="&#xf3b1;"/>
                 </Button>
                 <TextBlock HorizontalAlignment="Center" FontSize="40" Margin="400, 5" Foreground="#707070">Citas previas</TextBlock>
             </StackPanel>
         </Border>
-        <Button Content="detalles" Click="Button_Click_1"/>
+        <Button x:ConnectionId='3' Content="detalles"                       />
         <Border BorderThickness="1" BorderBrush="#F19314">
-            <ListView x:Name="lstLista" ItemsSource="" SelectedItem="">
+            <ListView x:ConnectionId='4' x:Name="lstLista" ItemsSource="" SelectedItem="">
 
             </ListView>
         </Border>
     </RelativePanel>
 </Page>
+

@@ -31,5 +31,10 @@ namespace PracticaSolaraizer.Views
         {
             this.Frame.Navigate(typeof(PracticaSolaraizer.MainPage));
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+           this.Frame.Navigate(typeof(PracticaSolaraizer.Views.Detalles));
+        }
     }
 }
