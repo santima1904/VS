@@ -32,16 +32,16 @@
                     <TextBlock Text="Dirección:" HorizontalTextAlignment="Right" Grid.Column="0" Grid.Row="3" Margin="10,15"/>
 
                     <Border BorderThickness="1" BorderBrush="#F19314" Grid.Column="1" Grid.Row="0" Margin="5,10" MinWidth="300" Padding="5">
-                        <TextBlock Text="María" HorizontalTextAlignment="Left"/>
+                        <TextBlock Text="Santiago" HorizontalTextAlignment="Left"/>
                     </Border>
                     <Border BorderThickness="1" BorderBrush="#F19314" Grid.Column="1" Grid.Row="1" Margin="5,10" Padding="5">
-                        <TextBlock Text="Palomo" HorizontalTextAlignment="Left"/>
+                        <TextBlock Text="Martínez Aral" HorizontalTextAlignment="Left"/>
                     </Border>
                     <Border BorderThickness="1" BorderBrush="#F19314" Grid.Column="1" Grid.Row="2" Margin="5,10" Padding="5">
-                        <TextBlock Text="98764362" HorizontalTextAlignment="Left"/>
+                        <TextBlock Text="678543261" HorizontalTextAlignment="Left"/>
                     </Border>
                     <Border BorderThickness="1" BorderBrush="#F19314" Grid.Column="1" Grid.Row="3" Margin="5,10" Padding="5">
-                        <TextBlock Text="Calle jaén, n 83" HorizontalTextAlignment="Left"/>
+                        <TextBlock Text="Calle Mallén, n 9" HorizontalTextAlignment="Left"/>
                     </Border>
                 </Grid>
             </PivotItem>

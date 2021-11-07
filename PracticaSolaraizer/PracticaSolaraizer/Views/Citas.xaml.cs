@@ -27,14 +27,30 @@ namespace PracticaSolaraizer.Views
             this.InitializeComponent();
         }
 
+        /// <summary>
+        ///  <cabecera>private void Button_Click(object sender, RoutedEventArgs e)</cabecera>
+        ///  <descripcion>Método para programar el evento del click del botón para ir a la página de inicio</descripcion>
+        ///  <precondiciones>Ninguna</precondiciones>
+        ///  <postcondiciones>Vuelves a la página de inicio</postcondiciones>
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(PracticaSolaraizer.MainPage));
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        /// <summary>
+        ///  <cabecera>private void lstLista_ItemClick(object sender, ItemClickEventArgs e)</cabecera>
+        ///  <descripcion>Método para programar el evento del click de un item seleccionado de la lista para ver los detalles</descripcion>
+        ///  <precondiciones>Ninguna</precondiciones>
+        ///  <postcondiciones>Vas a la página de los detalles de la cita seleccinada</postcondiciones>
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void lstLista_ItemClick(object sender, ItemClickEventArgs e)
         {
-           this.Frame.Navigate(typeof(PracticaSolaraizer.Views.Detalles));
+            this.Frame.Navigate(typeof(PracticaSolaraizer.Views.Detalles));
         }
     }
 }

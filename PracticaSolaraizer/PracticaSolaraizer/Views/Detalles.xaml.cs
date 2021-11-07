@@ -27,6 +27,14 @@ namespace PracticaSolaraizer.Views
             this.InitializeComponent();
         }
 
+        /// <summary>
+        ///  <cabecera>private void AppBarButton_Click(object sender, ItemClickEventArgs e)</cabecera>
+        ///  <descripcion>Método para programar el evento del click del botón </descripcion>
+        ///  <precondiciones>Ninguna</precondiciones>
+        ///  <postcondiciones>Vuelves a la página anterior</postcondiciones>
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void AppBarButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(PracticaSolaraizer.Views.Citas));

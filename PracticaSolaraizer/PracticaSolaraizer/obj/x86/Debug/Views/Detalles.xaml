@@ -10,32 +10,40 @@
 
     <RelativePanel>
         <Border x:ConnectionId='2' x:Name="txbTitle" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" Background="#F19314">
-            <StackPanel Orientation="Horizontal">
-                <AppBarButton x:ConnectionId='3' Icon="Back" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Left"                           />
-                <TextBlock FontSize="40" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#707070">Detalles</TextBlock>
-            </StackPanel>
+            <AppBarButton x:ConnectionId='4' Icon="Back" Margin="5,5,5,0" VerticalAlignment="Center" HorizontalAlignment="Left"                           />
         </Border>
         <Pivot RelativePanel.Below="txbTitle"  RelativePanel.AlignLeftWithPanel="True"
                       RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True">
             <PivotItem Header="Datos cliente">
-                <StackPanel Orientation="Vertical">
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Nombre:"/>
-                        <TextBlock Text="María"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Apellidos:"/>
-                        <TextBlock Text="Palomo"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Telefono:"/>
-                        <TextBlock Text="98764362"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Dirección:"/>
-                        <TextBlock Text="Calle jaén, n 83"/>
-                    </StackPanel>
-                </StackPanel>
+                <Grid x:ConnectionId='3' x:Name="grdForm" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="cmbBarra" Margin="30">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Nombre:" HorizontalTextAlignment="Right" Grid.Column="0" Grid.Row="0" Margin="10,15"/>
+                    <TextBlock Text="Apellidos:" HorizontalTextAlignment="Right" Grid.Column="0" Grid.Row="1" Margin="10,15"/>
+                    <TextBlock Text="Teléfono:" HorizontalTextAlignment="Right" Grid.Column="0" Grid.Row="2" Margin="10,15"/>
+                    <TextBlock Text="Dirección:" HorizontalTextAlignment="Right" Grid.Column="0" Grid.Row="3" Margin="10,15"/>
+
+                    <Border BorderThickness="1" BorderBrush="#F19314" Grid.Column="1" Grid.Row="0" Margin="5,10" MinWidth="300" Padding="5">
+                        <TextBlock Text="Santiago" HorizontalTextAlignment="Left"/>
+                    </Border>
+                    <Border BorderThickness="1" BorderBrush="#F19314" Grid.Column="1" Grid.Row="1" Margin="5,10" Padding="5">
+                        <TextBlock Text="Martínez Aral" HorizontalTextAlignment="Left"/>
+                    </Border>
+                    <Border BorderThickness="1" BorderBrush="#F19314" Grid.Column="1" Grid.Row="2" Margin="5,10" Padding="5">
+                        <TextBlock Text="678543261" HorizontalTextAlignment="Left"/>
+                    </Border>
+                    <Border BorderThickness="1" BorderBrush="#F19314" Grid.Column="1" Grid.Row="3" Margin="5,10" Padding="5">
+                        <TextBlock Text="Calle Mallén, n 9" HorizontalTextAlignment="Left"/>
+                    </Border>
+                </Grid>
             </PivotItem>
             <PivotItem Header="Ubicación">
                 <Image Source="/Assets/berga.jpg"/>
