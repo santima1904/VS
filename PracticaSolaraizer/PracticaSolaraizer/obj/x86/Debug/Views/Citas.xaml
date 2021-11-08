@@ -23,7 +23,7 @@
         <ScrollViewer HorizontalAlignment="Center" RelativePanel.Below="txbTitle" RelativePanel.AlignLeftWithPanel="True"
                 RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" VerticalAlignment="Center"
                       VerticalScrollBarVisibility="Visible">
-            <ListView x:ConnectionId='3' x:Name="lstLista"                               >
+            <ListView x:ConnectionId='3' x:Name="lstLista"                                IsItemClickEnabled="True">
                 <Grid BorderBrush="#F19314" BorderThickness="1" Margin="20" Padding="10" MinWidth="250" MinHeight="80">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"></RowDefinition>

@@ -38,6 +38,7 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="IsItemClickEnabled" />
       <RootProperty Name="Items" />
       <RootEvent Name="ItemClick" />
     </RootType>

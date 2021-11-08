@@ -39,5 +39,21 @@ namespace PracticaSolaraizer.Views
         {
             this.Frame.Navigate(typeof(PracticaSolaraizer.Views.Citas));
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ContentDialog datosenviados = new ContentDialog
+            {
+               Title = "",
+               Content ="",
+               CloseButtonText = ""
+            }
+            datosenviados.ShowAsync();
+        }
     }
 }

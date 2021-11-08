@@ -171,12 +171,6 @@
       <Version>6.2.12</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DAL1.0\DAL1.0.csproj">
-      <Project>{dc6d4b67-f05e-4708-be5e-2b393fa6b2a5}</Project>
-      <Name>DAL1.0</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

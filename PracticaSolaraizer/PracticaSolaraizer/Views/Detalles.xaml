@@ -62,7 +62,7 @@
                             <RadioButton Content="Válido"/>
                             <RadioButton Content="No válido"/>
                         </StackPanel>
-                        <Button Content="Enviar" HorizontalAlignment="Right" Margin="0,30" Background="#F19314"/>
+                        <Button Content="Enviar" HorizontalAlignment="Right" Margin="0,30" Background="#F19314" Click="Button_Click"/>
                     </StackPanel>
                 </ScrollViewer>
             </PivotItem>

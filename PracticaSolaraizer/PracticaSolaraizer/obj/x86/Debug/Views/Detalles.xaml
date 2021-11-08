@@ -69,4 +69,7 @@
         </Pivot>
     </RelativePanel>
 </Page>
+    
+<!--Abrir el explorador-->
+<!--FileOpenPicker()-->
 

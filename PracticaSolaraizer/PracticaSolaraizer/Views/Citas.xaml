@@ -14,7 +14,7 @@
                 <Button x:Name="btnSalir" VerticalAlignment="Center" Margin="20, 5, 10,0" Click="Button_Click" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignTopWithPanel="True">
                     <FontIcon Glyph="&#xf3b1;"/>
                 </Button>
-                <TextBlock HorizontalAlignment="Center" FontSize="40" Foreground="#707070" Margin="0,0,30,0"
+                <TextBlock HorizontalAlignment="Center" FontSize="40" Foreground="#707070" Margin="0,0,30,10"
                            RelativePanel.AlignRightWithPanel="True" RelativePanel.RightOf="btnSalir" RelativePanel.AlignTopWithPanel="True">
                     Citas previas
                 </TextBlock>
@@ -23,7 +23,7 @@
         <ScrollViewer HorizontalAlignment="Center" RelativePanel.Below="txbTitle" RelativePanel.AlignLeftWithPanel="True"
                 RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" VerticalAlignment="Center"
                       VerticalScrollBarVisibility="Visible">
-            <ListView x:Name="lstLista" ItemClick="lstLista_ItemClick">
+            <ListView x:Name="lstLista" ItemClick="lstLista_ItemClick" IsItemClickEnabled="True">
                 <Grid BorderBrush="#F19314" BorderThickness="1" Margin="20" Padding="10" MinWidth="250" MinHeight="80">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"></RowDefinition>
