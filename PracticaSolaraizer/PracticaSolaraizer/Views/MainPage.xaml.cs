@@ -27,6 +27,14 @@ namespace PracticaSolaraizer
             this.InitializeComponent();
         }
 
+        /// <summary>
+        ///  <cabecera>private void Button_Click(object sender, RoutedEventArgs e)</cabecera>
+        ///  <descripcion>Método para programar el evento del click del botón para ir a la página de citas</descripcion>
+        ///  <precondiciones>Ninguna</precondiciones>
+        ///  <postcondiciones>Vas a la página de citas</postcondiciones>
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(PracticaSolaraizer.Views.Citas));

@@ -13,18 +13,19 @@
             <AppBarButton Icon="Back" Margin="5,5,5,0" VerticalAlignment="Center" HorizontalAlignment="Left" Click="AppBarButton_Click"/>
         </Border>
         <Pivot RelativePanel.Below="txbTitle"  RelativePanel.AlignLeftWithPanel="True"
-                      RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True">
+                      RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" 
+               >
             <PivotItem Header="Datos cliente">
-                <Grid x:Name="grdForm" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="cmbBarra" Margin="30">
+                <Grid x:Name="grdForm" Margin="30" VerticalAlignment="Center" HorizontalAlignment="Center" BorderBrush="#F19314" BorderThickness="2" Padding="35">
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"></ColumnDefinition>
-                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
                     <TextBlock Text="Nombre:" HorizontalTextAlignment="Right" Grid.Column="0" Grid.Row="0" Margin="10,15"/>
                     <TextBlock Text="Apellidos:" HorizontalTextAlignment="Right" Grid.Column="0" Grid.Row="1" Margin="10,15"/>
@@ -46,21 +47,21 @@
                 </Grid>
             </PivotItem>
             <PivotItem Header="Ubicación">
-                <Image Source="/Assets/berga.jpg"/>
+                <Image Source="/Assets/Images/ubicacion.jpg" MaxHeight="500"/>
             </PivotItem>
             <PivotItem Header="Valoración">
                 <ScrollViewer VerticalScrollBarVisibility="Visible">
                     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <StackPanel Orientation="Horizontal" Margin="10">
-                            <Image Source="/Assets/tejado.jpg" MaxWidth="200" MaxHeight="200"/>
+                            <Image Source="/Assets/Images/tejado.jpg" MaxWidth="200" MaxHeight="200"/>
                             <AppBarButton Icon="Add" VerticalAlignment="Bottom" Margin="10, 10, 10,0"/>
                         </StackPanel>
-                        <TextBox Header="Observaciones" TextWrapping="Wrap" AcceptsReturn="True" MinHeight="100" Margin="10"/>
-                        <TextBox Header="Dimensiones" Margin="10"/>
-                        <TextBox Header="Valoración" TextWrapping="Wrap" AcceptsReturn="True" MinHeight="100" Margin="10"/>
+                        <TextBox x:Name="txbObservacion" Header="Observaciones" TextWrapping="Wrap" AcceptsReturn="True" MinHeight="100" Margin="10"/>
+                        <TextBox x:Name="txbDimensiones" Header="Dimensiones" Margin="10"/>
+                        <TextBox x:Name="txbValoracion" Header="Valoración" TextWrapping="Wrap" AcceptsReturn="True" MinHeight="100" Margin="10"/>
                         <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
-                            <RadioButton Content="Válido"/>
-                            <RadioButton Content="No válido"/>
+                            <RadioButton x:Name="rdbValido" Content="Válido"/>
+                            <RadioButton x:Name="rdbNoValido"  Content="No válido"/>
                         </StackPanel>
                         <Button Content="Enviar" HorizontalAlignment="Right" Margin="0,30" Background="#F19314" Click="Button_Click"/>
                     </StackPanel>

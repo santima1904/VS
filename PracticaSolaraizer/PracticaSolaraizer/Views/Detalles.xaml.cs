@@ -29,7 +29,7 @@ namespace PracticaSolaraizer.Views
 
         /// <summary>
         ///  <cabecera>private void AppBarButton_Click(object sender, ItemClickEventArgs e)</cabecera>
-        ///  <descripcion>Método para programar el evento del click del botón </descripcion>
+        ///  <descripcion>Método para programar el evento del click del botón para volver a la pagina de las citas </descripcion>
         ///  <precondiciones>Ninguna</precondiciones>
         ///  <postcondiciones>Vuelves a la página anterior</postcondiciones>
         /// </summary>
@@ -41,19 +41,23 @@ namespace PracticaSolaraizer.Views
         }
 
         /// <summary>
-        /// 
+        ///  <cabecera>private void Button_Click(object sender, RoutedEventArgs e)</cabecera>
+        ///  <descripcion>Método para programar el evento del click del botón de enviar valoracion </descripcion>
+        ///  <precondiciones>Ninguna</precondiciones>
+        ///  <postcondiciones>Aparece el mensaje de envio realizado</postcondiciones>
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             ContentDialog datosenviados = new ContentDialog
-            {
-               Title = "",
-               Content ="",
-               CloseButtonText = ""
-            }
-            datosenviados.ShowAsync();
+             {
+                 Title = "Envío de datos",
+                 Content = "Datos enviados correctamente",
+                 CloseButtonText = "Ok"
+             };
+             datosenviados.ShowAsync();
+           
         }
     }
 }

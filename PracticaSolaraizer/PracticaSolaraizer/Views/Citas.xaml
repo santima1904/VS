@@ -33,10 +33,10 @@
                         <ColumnDefinition Width="*"></ColumnDefinition>
                         <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Santiago"/>
-                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Martínez Aral"/>
-                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Calle Mallén, n9" HorizontalAlignment="Right"/>
-                    <TextBlock Grid.Row="1" Grid.Column="1" Text="678543261" HorizontalAlignment="Right"/>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="14:45" FontSize="30"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Santiago Martínez Aral" Margin="0, 10,0,0"/>
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Calle Mallén, n9" HorizontalAlignment="Right" Margin="0,15,0,0"/>
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="678543261" HorizontalAlignment="Right" Margin="0,10,0,0"/>
                 </Grid>
                 <Grid BorderBrush="#F19314" BorderThickness="1" Margin="20" Padding="10" MinWidth="250" MinHeight="80">
                     <Grid.RowDefinitions>
@@ -47,10 +47,10 @@
                         <ColumnDefinition Width="*"></ColumnDefinition>
                         <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Santiago"/>
-                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Martínez Aral"/>
-                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Calle Mallén, n9" HorizontalAlignment="Right"/>
-                    <TextBlock Grid.Row="1" Grid.Column="1" Text="678543261" HorizontalAlignment="Right"/>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="14:45" FontSize="30"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Santiago Martínez Aral" Margin="0, 10,0,0"/>
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Calle Mallén, n9" HorizontalAlignment="Right" Margin="0,15,0,0"/>
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="678543261" HorizontalAlignment="Right" Margin="0,10,0,0"/>
                 </Grid>
                 <Grid BorderBrush="#F19314" BorderThickness="1" Margin="20" Padding="10" MinWidth="250" MinHeight="80">
                     <Grid.RowDefinitions>
@@ -61,10 +61,10 @@
                         <ColumnDefinition Width="*"></ColumnDefinition>
                         <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Santiago"/>
-                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Martínez Aral"/>
-                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Calle Mallén, n9" HorizontalAlignment="Right"/>
-                    <TextBlock Grid.Row="1" Grid.Column="1" Text="678543261" HorizontalAlignment="Right"/>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="14:45" FontSize="30"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Santiago Martínez Aral" Margin="0, 10,0,0"/>
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Calle Mallén, n9" HorizontalAlignment="Right" Margin="0,15,0,0"/>
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="678543261" HorizontalAlignment="Right" Margin="0,10,0,0"/>
                 </Grid>
                 <Grid BorderBrush="#F19314" BorderThickness="1" Margin="20" Padding="10" MinWidth="250" MinHeight="80">
                     <Grid.RowDefinitions>
@@ -75,10 +75,10 @@
                         <ColumnDefinition Width="*"></ColumnDefinition>
                         <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Santiago"/>
-                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Martínez Aral"/>
-                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Calle Mallén, n9" HorizontalAlignment="Right"/>
-                    <TextBlock Grid.Row="1" Grid.Column="1" Text="678543261" HorizontalAlignment="Right"/>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="14:45" FontSize="30"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Santiago Martínez Aral" Margin="0, 10,0,0"/>
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Calle Mallén, n9" HorizontalAlignment="Right" Margin="0,15,0,0"/>
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="678543261" HorizontalAlignment="Right" Margin="0,10,0,0"/>
                 </Grid>
             </ListView>
         </ScrollViewer>

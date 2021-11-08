@@ -136,9 +136,10 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\berga.jpg" />
-    <Content Include="Assets\R.png" />
-    <Content Include="Assets\tejado.jpg" />
+    <Content Include="Assets\Images\placas.jpg" />
+    <Content Include="Assets\Images\R.png" />
+    <Content Include="Assets\Images\tejado.jpg" />
+    <Content Include="Assets\Images\ubicacion.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
